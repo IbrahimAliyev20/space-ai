@@ -1,0 +1,9 @@
+.content1-body{
+    background-image: url('/arkafon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}

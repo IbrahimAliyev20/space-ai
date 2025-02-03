@@ -1,0 +1,11 @@
+.head-cont{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background: linear-gradient(160deg, #364c8f, #0b2042, #364c8f);
+    cursor: pointer;
+}
+.head-cont img{
+    width: 170px;
+    opacity: 0.8;
+}

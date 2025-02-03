@@ -1,0 +1,77 @@
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-logo-img {
+    width: 80px; /* Logo boyutunu ihtiyacınıza göre ayarlayabilirsiniz */
+    height: auto;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-link {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #21a1f1;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-logo-img {
+      width: 60px;
+    }
+  
+    .footer-link {
+      font-size: 14px;
+    }
+  
+    .footer-content {
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-logo-img {
+      width: 50px;
+    }
+  
+    .footer-link {
+      font-size: 12px;
+    }
+  
+    .footer-copyright {
+      font-size: 12px;
+    }
+  }
+  
